@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Musical Structure</string>
+    <string name="app_name">Home</string>
+    <string name="home_title">Recently Played</string>
+    <string name="home_description">The home screen will display a list of recently played tracks
+    so a user can quickly re-listen to her favourite tracks. This screen can also include
+    a section for track recommendations that can be purchased or streamed.</string>
+
+    <string name="now_playing_button">Now Playing</string>
+    <string name="albums_button">Albums</string>
+    <string name="artists_button">Artists</string>
 </resources>
