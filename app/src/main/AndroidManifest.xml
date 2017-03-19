@@ -18,7 +18,10 @@
         </activity>
         <activity
             android:name=".NowPlayingActivity"
-            android:label="Now Playing"></activity>
+            android:label="Now Playing" />
+        <activity
+            android:name=".AlbumsActivity"
+            android:label="Albums"></activity>
     </application>
 
 </manifest>

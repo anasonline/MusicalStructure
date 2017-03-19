@@ -14,11 +14,11 @@
 
         <TextView
             style="@style/MainTitle"
-            android:text="@string/now_playing_title" />
+            android:text="@string/albums_title" />
 
         <TextView
             style="@style/ActivityDescription"
-            android:text="@string/now_playing_description" />
+            android:text="@string/albums_description" />
 
     </LinearLayout>
 </ScrollView>

@@ -25,5 +25,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Find the Albums view
+        TextView albums = (TextView) findViewById(R.id.albums);
+
+        // Set a ClickListener on the Now Playing view
+        albums.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent albumsIntent = new Intent(MainActivity.this, AlbumsActivity.class);
+                startActivity(albumsIntent);
+            }
+        });
+
     }
 }

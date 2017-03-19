@@ -11,6 +11,10 @@
     with a large album image and audio controls, in addition to basic information such as
     album and track names.</string>
 
+    <string name="albums_description">This page displays a list of albums stored on the
+    user\'s device. Each album in the list is represented by a cover photo, album name, number of
+    tracks, and artist\'s name.</string>
+
     <!-- Buttons -->
     <string name="now_playing_button">Now Playing</string>
     <string name="albums_button">Albums</string>
@@ -18,4 +22,5 @@
 
     <!-- Titles -->
     <string name="now_playing_title">Now Playing</string>
+    <string name="albums_title">Albums</string>
 </resources>
