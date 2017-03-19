@@ -28,12 +28,24 @@ public class MainActivity extends AppCompatActivity {
         // Find the Albums view
         TextView albums = (TextView) findViewById(R.id.albums);
 
-        // Set a ClickListener on the Now Playing view
+        // Set a ClickListener on the Artists view
         albums.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent albumsIntent = new Intent(MainActivity.this, AlbumsActivity.class);
                 startActivity(albumsIntent);
+            }
+        });
+
+        // Find the Artists view
+        TextView artists = (TextView) findViewById(R.id.artists);
+
+        // Set a ClickListener on the Artists view
+        artists.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent artistsIntent = new Intent(MainActivity.this, ArtistsActivity.class);
+                startActivity(artistsIntent);
             }
         });
 

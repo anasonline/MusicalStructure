@@ -15,6 +15,10 @@
     user\'s device. Each album in the list is represented by a cover photo, album name, number of
     tracks, and artist\'s name.</string>
 
+    <string name="artists_description">This page displays a list of artists with the artist\'s
+    image and name. A user can click on an artist to move into a new activity that displays
+    artist\'s albums and songs.</string>
+
     <!-- Buttons -->
     <string name="now_playing_button">Now Playing</string>
     <string name="albums_button">Albums</string>
@@ -23,4 +27,5 @@
     <!-- Titles -->
     <string name="now_playing_title">Now Playing</string>
     <string name="albums_title">Albums</string>
+    <string name="artists_title">Artists</string>
 </resources>
