@@ -21,14 +21,17 @@
             android:text="@string/home_description" />
 
         <TextView
+            android:id="@+id/now_playing"
             style="@style/Button"
             android:text="@string/now_playing_button" />
 
         <TextView
+            android:id="@+id/albums"
             style="@style/Button"
             android:text="@string/albums_button" />
 
         <TextView
+            android:id="@+id/artists"
             style="@style/Button"
             android:text="@string/artists_button" />
 
