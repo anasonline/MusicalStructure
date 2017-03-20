@@ -34,6 +34,5 @@
             android:id="@+id/artists"
             style="@style/Button"
             android:text="@string/artists_button" />
-
     </LinearLayout>
 </ScrollView>

@@ -20,5 +20,9 @@
             style="@style/ActivityDescription"
             android:text="@string/albums_description" />
 
+        <TextView
+            android:id="@+id/artists"
+            style="@style/Button"
+            android:text="@string/artists_button" />
     </LinearLayout>
 </ScrollView>

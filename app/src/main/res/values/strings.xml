@@ -11,23 +11,24 @@
 
     <string name="now_playing_description">This page displays the currently played track
     with a large album image and audio controls, in addition to basic information such as
-    album and track names.\n This can be achieved by utilization of methods in the MediaPlayer
+    album and track names.\nThis can be achieved by utilization of methods in the MediaPlayer
     class and database calls.</string>
 
     <string name="albums_description">This page displays a list of albums stored on the
     user\'s device. Each album in the list is represented by a cover photo, album name, number of
-    tracks, and artist\'s name.\n These information can be pulled from the database with the use
+    tracks, and artist\'s name.\nThese information can be pulled from the database with the use
     of DatabaseHelper.</string>
 
     <string name="artists_description">This page displays a list of artists with the artist\'s
     image and name. A user can click on an artist to move into a new activity that displays
-    artist\'s albums and songs.\n These information can be pulled from the database with the use
+    artist\'s albums and songs.\nThese information can be pulled from the database with the use
     of DatabaseHelper</string>
 
     <!-- Buttons -->
     <string name="now_playing_button">Now Playing</string>
     <string name="albums_button">Albums</string>
     <string name="artists_button">Artists</string>
+    <string name="recently_played_button">Recently Played</string>
 
     <!-- Titles -->
     <string name="now_playing_title">Now Playing</string>
